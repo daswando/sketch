@@ -1,0 +1,20 @@
+#gridBox {
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#boxRow {
+    display: flex;
+}
+
+#boxElement {
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    padding: 1.5vw;
+}
