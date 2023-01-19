@@ -3,13 +3,11 @@
     border-color: red;
     border-style: solid;
     background-color: bisque;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 #boxRow {
     display: flex;
+    justify-content: center;
 }
 
 #boxElement {
@@ -17,4 +15,13 @@
     border-color: rgb(0, 0, 0);
     border-style: solid;
     padding: 1.5vw;
+}
+
+.hoverColor {
+    background-color: green;
+    transition-duration: 1s;
+}
+
+.toggle {
+    background-color: black;
 }
